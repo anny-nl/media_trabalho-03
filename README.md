@@ -4,7 +4,7 @@ Este projeto tem como objetivo armazenar e gerenciar os metadados de vídeos pro
 
 ---
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
 
 
