@@ -34,7 +34,7 @@ trabalho 03/ ├── .venv/ # Ambiente virtual ├── server/ # Lógica de 
 
 ---
 
-## Como executar o projeto
+## Como executar o projeto:
 
 ### 1. Clone o repositório
 
@@ -42,15 +42,20 @@ trabalho 03/ ├── .venv/ # Ambiente virtual ├── server/ # Lógica de 
 git clone https://github.com/anny-nl/media_trabalho-03.git
 cd media_trabalho-03
 
-#Ative o ambiente virtual
-& ".venv/Scripts/Activate.ps1"
-
-#Execute o script principal:
+### 2. Criar ambiente virtual
+python -m venv .venv
+----
+### 3. Ativar ambiente virtual
+.venv\Scripts\Activate.ps1
+---
+# 4. Execute o script principal:
  python main.py
 
-#Organização dos arquivos de vídeo
-/media/
-├── original/
-├── processed/
-└── trash/
+PARA TESTAR O BD:
+## Rodar O ARQUIVO tests:
+pip install -r requirements.txt
+-----
+## Rode o teste:
+pytest -v
+
 
